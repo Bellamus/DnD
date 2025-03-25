@@ -1,0 +1,16 @@
+name = "adnd2nd"
+type = "html"
+
+# Wenn du den Worker direkt aus dem GitHub-Repository veröffentlichen möchtest
+account_id = "b7e8e47c7e17084bd42ae322ab01da55"
+workers_dev = true
+compatibility_date = "2025-03-25"
+
+[env.production]
+workers_dev = false
+compatibility_date = "2025-03-25"
+
+# Falls du Datenbank, KV oder andere Cloudflare-Integrationen verwendest, kannst du hier Namespaces hinzufügen
+# [env.production.kv_namespaces]
+# binding = "NAMESPACE"
+# id = "namespace-id"
