@@ -1,7 +1,7 @@
 name = "adnd2nd"
-type = "html"
+type = "javascript"
 
-account_id = "b7e8e47c7e17084bd42ae322ab01da55"
+account_id = "gsOH9_rp-mgKwcka6KT4vTal6_aJLwgFxboDrXDO"
 workers_dev = true
 compatibility_date = "2025-03-25"
 
@@ -9,5 +9,6 @@ compatibility_date = "2025-03-25"
 workers_dev = false
 compatibility_date = "2025-03-25"
 
-[[workers_dev]]
-route = "*/index.html"
+[[env.production.r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "adnd2ndpdf"
